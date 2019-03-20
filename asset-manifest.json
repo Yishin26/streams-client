@@ -1,11 +1,11 @@
 {
-  "main.js": "/streams-client/static/js/main.b13c362f.chunk.js",
-  "main.js.map": "/streams-client/static/js/main.b13c362f.chunk.js.map",
+  "main.js": "/streams-client/static/js/main.456aec56.chunk.js",
+  "main.js.map": "/streams-client/static/js/main.456aec56.chunk.js.map",
   "runtime~main.js": "/streams-client/static/js/runtime~main.b97f421e.js",
   "runtime~main.js.map": "/streams-client/static/js/runtime~main.b97f421e.js.map",
-  "static/js/2.fd40a86a.chunk.js": "/streams-client/static/js/2.fd40a86a.chunk.js",
-  "static/js/2.fd40a86a.chunk.js.map": "/streams-client/static/js/2.fd40a86a.chunk.js.map",
+  "static/js/2.da4e9352.chunk.js": "/streams-client/static/js/2.da4e9352.chunk.js",
+  "static/js/2.da4e9352.chunk.js.map": "/streams-client/static/js/2.da4e9352.chunk.js.map",
   "index.html": "/streams-client/index.html",
-  "precache-manifest.29ba37d4350aa4545528909eb8de13d2.js": "/streams-client/precache-manifest.29ba37d4350aa4545528909eb8de13d2.js",
+  "precache-manifest.fd75518238a6cdf4a88ddf66fdb95d12.js": "/streams-client/precache-manifest.fd75518238a6cdf4a88ddf66fdb95d12.js",
   "service-worker.js": "/streams-client/service-worker.js"
 }
