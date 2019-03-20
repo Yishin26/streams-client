@@ -12,7 +12,7 @@
     "redux": "^4.0.1",
     "redux-form": "^8.1.0"
   },
-  "homepage": "https://yishin26.github.io/streams-client",
+  "homepage": "https://yishin26.github.io/streams-client/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

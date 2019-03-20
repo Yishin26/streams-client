@@ -7,6 +7,9 @@ const Header = () => {
       <Link to="/streams-client/" className="item header">
         <h2>ReactStreamer</h2>
       </Link>
+      <Link to="/streams-client/streams/new" className="item header">
+        <h2>Create</h2>
+      </Link>
 
       <div className="right menu">
         <Link to="/streams-client/" className="item">
