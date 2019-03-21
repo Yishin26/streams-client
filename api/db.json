@@ -1,3 +1,24 @@
 {
-    "streams":[]
+  "streams": [
+    {
+      "title": "Ellen Show",
+      "description": "This is a great stream",
+      "id": 1
+    },
+    {
+      "title": "Taiwan Style",
+      "description": "Taiwan NO.1",
+      "id": 2
+    },
+    {
+      "title": "Meet Teacher",
+      "description": "XDD",
+      "id": 3
+    },
+    {
+      "title": "jj",
+      "description": "lll",
+      "id": 4
+    }
+  ]
 }

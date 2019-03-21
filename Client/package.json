@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-preset-react-app": "^7.0.2",
+    "firebase-tools": "^6.5.0",
     "gh-pages": "^2.0.1",
+    "loadash": "^1.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-redux": "^6.0.1",
