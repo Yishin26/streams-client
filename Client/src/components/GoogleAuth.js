@@ -9,7 +9,7 @@ class GoogleAuth extends React.Component {
         .init({
           //初始化
           clientId:
-            "660671652332-sdstmag02e4j2q1sqlk7traqpdmpncip.apps.googleusercontent.com",
+            "472584909398-hrklu731bldbcanjrbjrijh9gl2esu7j.apps.googleusercontent.com",
           scope: "email"
         })
         .then(() => {
