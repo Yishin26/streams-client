@@ -1,4 +1,5 @@
 import streams from "../apis/streams";
+import history from '../history';
 import {
   SIGN_IN,
   SIGN_OUT,
@@ -21,10 +22,14 @@ export const signOut = () => {
   };
 };
 
-export const createStream = formValues => async (dispatch, getState) => {
+export const createStream = (formValues)=> async (dispatch, getState) => {
   const { userId } = getState().auth;
   const response = await streams.post("/streams", { ...formValues, userId });
   dispatch({ type: CREATE_STREAM, payload: response.data });
+
+  history.push("/streams-client/"); //送出後導回清單
+  //Do some programmatic navigation to 
+  //get the user back to the root roate
 };
 
 export const fetchStreams = () => async dispatch => {
