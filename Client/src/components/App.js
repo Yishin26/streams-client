@@ -23,7 +23,7 @@ const App = () => {
             component={StreamCreate}
           />
           <Route
-            path="/streams-client/streams/edit"
+            path="/streams-client/streams/edit/:id"
             exact
             component={StreamEdit}
           />

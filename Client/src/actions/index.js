@@ -27,7 +27,7 @@ export const createStream = (formValues)=> async (dispatch, getState) => {
   const response = await streams.post("/streams", { ...formValues, userId });
   dispatch({ type: CREATE_STREAM, payload: response.data });
 
-  history.push("/streams-client/"); //送出後導回清單
+  history.push("/streams-client/"); //送出後倒回清單
   //Do some programmatic navigation to 
   //get the user back to the root roate
 };
@@ -48,6 +48,8 @@ export const deleteStream = id => async dispatch => {
 };
 
 export const editStream = (id, formValues) => async dispatch => {
-  const response = await streams.put(`/streams/${id}`);
+  const response = await streams.patch(`/streams/${id}`,formValues); // 欄位對應嚴謹檢查
   dispatch({ type: EDIT_STREAM, payload: response.data });
+  history.push("/streams-client/"); //送出後導回清單
+  
 };
