@@ -35,17 +35,23 @@ class StreamList extends React.Component {
           {this.renderAdmin(stream) /*Button*/}
           <i className="large middle aligned icon camera" />
           <div className="content">
-            {stream.title}
+            <Link
+              to={`/streams-client/streams/${stream.id}`}
+              className="header"
+            >
+              {stream.title}
+            </Link>
+
             <div className="description">{stream.description}</div>
           </div>
         </div>
       );
     });
   }
-renderCreate() {
+  renderCreate() {
     if (this.props.isSignedIn) {
       return (
-        <div style={{textAlign:'right'}}>
+        <div style={{ textAlign: "right" }}>
           <Link to="/streams-client/streams/new" className="ui button primary">
             <h5>Create Stream</h5>
           </Link>
